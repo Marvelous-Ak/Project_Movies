@@ -1,0 +1,38 @@
+/*botones*/
+.ButtonCat {
+    padding: 2%;
+    /*background-color: aqua;*/
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Espacio entre elementos con centrado */
+    align-items: center; /* Centrar verticalmente */
+  }
+  
+  .ButtonCat ul {
+    list-style: none; /* Eliminar viñetas de la lista */
+    display: flex; /* Mostrar los elementos de la lista en línea */
+    padding: 0; /* Eliminar el relleno predeterminado de la lista */
+  }
+  
+  .ButtonCat li {
+    margin: 0 50px; /* Espacio horizontal entre elementos */
+  }
+  
+  .ButtonCat li a{
+    white-space: nowrap; /* Evitar que el texto se divida en múltiples líneas */
+    max-width: 100%; /* Ancho máximo del botón igual al del texto */
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(
+      120deg,
+      rgb(58, 227, 195) 30%,
+      rgb(86, 63, 240)
+    ); /* Fondo de degradado horizontal */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s; /* Transición para el cambio de color al pasar el mouse */
+  }
+  
+  .ButtonCat li a:hover {
+    background: linear-gradient(-45deg,rgb(86, 63, 240),rgb(86, 63, 240)); /* Cambio de color a azul al pasar el mouse */
+  }
+  

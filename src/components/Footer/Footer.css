@@ -1,0 +1,39 @@
+/*.footer{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 310px;
+  width: auto;
+  
+}*/
+
+.footer {
+  z-index: -1;
+  position: absolute;
+  min-height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0px;
+
+}
+
+
+.footer-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.footer-logos {
+  font-size: 22px;
+  color: white;
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  left: 7%;
+  right: 0;
+  width: 70vw;
+}
+.logoF{
+  width: 15%;
+}

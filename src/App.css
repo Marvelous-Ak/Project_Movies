@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #03067b;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh; /* Asegura que el fondo abarque toda la altura de la ventana */
+  display: flex;
+  flex-direction: column;
+}
