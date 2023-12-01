@@ -48,7 +48,7 @@ const Login = () => {
         console.log(response.data);
         sessionStorage.setItem('token', response.data.guest_session_id);
         setTimeout(() => {
-          navigate('/Home');
+          navigate('/Now_Playing');
         }),500;
       })
       .catch(function (error) {
